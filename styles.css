@@ -683,7 +683,7 @@ header.sticky{
   .home-text p{
     font-size: 1rem;
   }
-  
+
   .one{
     display: inline-flex;
     margin-right: 6px;
@@ -705,6 +705,19 @@ header.sticky{
     background: var(--bg-color);
     text-align: left;
     transform: all .45s ease;
+  }
+
+  .about-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .about-img img{
+    width: 50%;
+    margin-left: 25%;
   }
 
   .navlist a{
